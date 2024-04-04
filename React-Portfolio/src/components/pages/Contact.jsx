@@ -35,8 +35,8 @@ const handleInputChange = (e) => {
 return (
     <div>
         <form onSubmit={handleFormSubmit}>
-            <input type="text" name="email" onCHange={handleInputChange}/><br/>
-            <input type="text" name="firstName" onCHange={handleInputChange}/><br/>
+            <input type="text" name="email" onChange={handleInputChange}/><br/>
+            <input type="text" name="firstName" onChange={handleInputChange}/><br/>
             <button type ="submit"> ADD EMAIL</button>
             {errorMessage && (
                 <div style={{color:"red"}}>ERROR: {errorMessage}</div>
