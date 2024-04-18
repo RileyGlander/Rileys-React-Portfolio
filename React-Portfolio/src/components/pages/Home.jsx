@@ -1,21 +1,23 @@
+import React from "react" 
+// import IMG from '../assets/';
+
+
 export default function Home() {
     return (
-      <div>
-        <h1>Home</h1>
-        <p>
-          Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-          molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-          magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-          efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-          mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-          posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-          faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-          ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-          dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-          conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-          rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-        </p>
-      </div>
-    );
+      <div className="home">
+          <h1>Hey there, my name is Riley</h1>
+            {/* <img src="../assets/IMG_2897.JPG" alt="My high school senior picture" /> */}
+            <img className="photo" src="http://localhost:3000/src/assets/IMG_2897.JPG" alt="My high school senior picture"/>
+            
+              <div className="aboutMe">
+                    <p>I'm a Full Stack Flex Developer who graduated the University of Minnesota's online bootcamp.</p> 
+                      <p>You can usually find me on my computer learning more about the languages and skills needed to be a full stack flex web developer.</p>
+                        <p>Outside of programming, I enjoy activities such as gaming, which has allowed me to develop skills such as strategic thinking, problem solving and teamwork.</p>              
+               </div>
+               
+      </div>    
+        );
+
+        
   }
   

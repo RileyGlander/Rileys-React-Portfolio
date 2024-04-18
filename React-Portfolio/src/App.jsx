@@ -1,21 +1,15 @@
-import { useState } from 'react'
-import Header from "./components/Header"
+// Bringing in the required import from 'react-router-dom'
 import { Outlet } from 'react-router-dom';
 import Nav from './components/NavTabs';
 
-//import './App.css'
-
 function App() {
-  // const [count, setCount] = useState(0)
-
+  // The Outlet component will conditionally swap between the different pages according to the URL
   return (
     <>
-    <Nav />
-    <main className="mx-3">
+      <Nav />
       <Outlet />
-    </main>
-  </>
-  )
+    </>
+  );
 }
 
-      export default App
+export default App;

@@ -33,9 +33,10 @@ const handleInputChange = (e) => {
 }
 
 return (
-    <div>
+    <div className ="form">
+     <h3> Want to get in contact?</h3>
         <form onSubmit={handleFormSubmit}>
-            <input type="text" name="email" onChange={handleInputChange}/><br/>
+            <input type="text" name="email" onChange={handleInputChange}/> <br/>
             <input type="text" name="firstName" onChange={handleInputChange}/><br/>
             <button type ="submit"> ADD EMAIL</button>
             {errorMessage && (

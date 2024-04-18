@@ -25,8 +25,6 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -55,6 +53,13 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.profile-footer {
+  text-align: center;
+  position: fixed;
+  inset: auto 0 0 0;
+  padding: 1em;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -67,3 +72,40 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.home {
+  position:relative; 
+  left:500px;
+  top:2px;
+  width:500px;
+  word-wrap: normal;
+}
+
+.nav-link text-light {
+  letter-spacing: px
+}
+
+.photo {
+  position: absolute;
+  left:700px;
+  height: 600px;
+  align-items: center;
+  top:10px;
+   
+}
+
+.aboutMe {
+  position: absolute;
+  top:150px;
+  left:00px;
+}
+
+.form {
+  position: absolute;
+  top:500px; 
+  left:500px;
+
+}
+
+/*justify-content, align-items, 
+align-self flex-direction, flex-wrap, flex-flow

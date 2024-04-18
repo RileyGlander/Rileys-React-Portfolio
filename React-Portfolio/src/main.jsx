@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css'
-import AboutMe from './components/pages/AboutMe';
-import Contact from './components/pages/Contact';
-import Home from './components/pages/Home.jsx';
+
+// import Contact from './components/pages/Contact';
+import HomeContact from './components/pages/homeAndContact.jsx';
 import Resume from './components/pages/Resume';
 
 const router = createBrowserRouter([
@@ -16,20 +17,13 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Home />,
-      },
-      {
-        path: '/about',
-        element: <AboutMe />,
+        element: <HomeContact />,
       },
       {
         path: '/resume',
         element: <Resume />,
       },
-      {
-        path: '/contact',
-        element: <Contact/>,
-      },
+      
       
       
     ],
