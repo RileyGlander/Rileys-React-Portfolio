@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css'
 
 // import Contact from './components/pages/Contact';
-import HomeContact from './components/pages/homeAndContact.jsx';
+import HomeContact from './components/pages/HomeAndContact.jsx';
 import Resume from './components/pages/Resume';
 
 const router = createBrowserRouter([
