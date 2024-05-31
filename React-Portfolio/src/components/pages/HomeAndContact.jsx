@@ -5,7 +5,7 @@ function HomeContact() {
   return (
     <div>
       <Home />
-      <Contact />
+      {/* <Contact /> */}
     </div>
   );
 }
