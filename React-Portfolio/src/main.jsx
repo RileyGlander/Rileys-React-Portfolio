@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css'
 
 // import Contact from './components/pages/Contact';
-import HomeContact from './components/pages/HomeAndContact.jsx';
+import Home from './components/pages/Home.jsx';
 import Resume from './components/pages/Resume';
 
 const router = createBrowserRouter([
@@ -17,7 +17,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <HomeContact />,
+        element: <Home />,
       },
       {
         path: '/resume',

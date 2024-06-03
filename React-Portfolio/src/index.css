@@ -23,12 +23,14 @@ a:hover {
 }
 
 body {
-  margin: 0;
-  min-width: 320px;
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
 }
 
 h1 {
+  position: absolute;
+  left:20px;
   font-size: 3.2em;
   line-height: 1.1;
 }
@@ -67,13 +69,6 @@ button:focus-visible {
   }
 }
 
-.home {
-  position:relative; 
-  left:500px;
-  top:2px;
-  width:500px;
-  word-wrap: normal;
-  font-size: large;
 
   
     /* font-size: 36px;
@@ -81,106 +76,9 @@ button:focus-visible {
     width: 80%;
     top: 40px;
     padding: 18px 20px 18px 20px; */
-}
+
 
 .nav-link text-light {
   letter-spacing: px
 }
 
-.photo {
-  position: absolute;
-  left:700px;
-  height: 600px;
-  align-items: center;
-  top:10px;
-   
-}
-
-.aboutMe {
-  position: absolute;
-  top:150px;
-  left:00px;
-}
-
-.skills{
-padding-top: 10%;
-font-size: large;
-
-}
-
-.experience{
-padding-top: 10%;
-font-size: large;
-}
-
-.education{
-  padding-top: 10%;
-  font-size: large;
-}
-
-
-
-.form {
-  position: absolute;
-  top:120%; 
-  left:500px;
-
-}
-
-.technicalSkills{
-  font-size: large;
-  position: absolute;
-  padding:5%, 5%;
-}
-
-.project1{
-  /* border:1px solid #000; */
-
-  padding:5% 5%;
-}
-
-.project2{
-  position: relative;
-  padding:5% 5%;
-  top: 15vh;
-  /* border:1px solid #000; */
-
-}
-
-.project3{
-  position: relative;
-  padding:5% 5%;
-  top: 40vh;
-  /* border:1px solid #000; */
-
-
-}
-.projectImage1 {
-  position: absolute;
-  top: 15%;
-  left: 50%;
-  height: 400px;
-  border:1px solid #000;
-  bottom: 100%;
-}
-
-.projectImage2 {
-  position: absolute;
-  top:60%;
-  left: 50%;
-  height: 400px;
-  border:1px solid #000;
-
-}
-
-.projectImage3 {
-  position: absolute;
-  top:105%;
-  left: 50%;
-  height: 400px;
-  border:1px solid #000;
-
-}
-
-/*justify-content, align-items, 
-align-self flex-direction, flex-wrap, flex-flow

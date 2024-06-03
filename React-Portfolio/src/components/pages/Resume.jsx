@@ -20,7 +20,7 @@ export default function Resume() {
                     Back End: JavaScript, Web API’s, Third Party API’s, Server Side API, Node, OOP, Express, SQL, ORM, MVC, Computer Science, NoSQL, PWA, React, MERN, State
                     Applications: GitHub, Git Bash, Visual Studio Code, MySQL WorkBench, Insomnia
                   </p>
-                  <div className="projects">
+                  <section className="projects">
                 <h2>PROJECTS</h2>
                 <div className="project1">
 
@@ -51,9 +51,9 @@ export default function Resume() {
                           Tools: HTML, CSS, JavaScript, React, GraphQL, Apollo Client/Server
                         </p>
                         </div>
-                      </div>
+                      
                         <img className="projectImage3" src="http://localhost:3000/src/assets/Screenshot (131).png" alt="My third project. It is a Book Door App" />
-
+                        </section>
                       </div>
               </div>
             </div>
@@ -66,23 +66,3 @@ export default function Resume() {
   );
   
 }
-//  export default function Contact() {
-//     return (
-//       <div>
-//         <h1>Contact Page</h1>
-//         <p>
-//           Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-//           molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-//           magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-//           efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-//           mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-//           posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-//           faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-//           ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-//           dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-//           conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-//           rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-//         </p>
-//       </div>
-//     );
-//   }
