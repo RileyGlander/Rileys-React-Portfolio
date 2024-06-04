@@ -1,7 +1,5 @@
 #root {
   height: 100%;
-  margin: 0;
-  padding: 0;
   display: flex;
   flex-direction: column;
 }
@@ -18,9 +16,7 @@ main {
 }
 
 .footer {
-  position: absolute;
-  top:150vh;
-  background-color: #333;
+  background: #333;
   color: #fff;
   text-align: center;
   padding: 10px;
@@ -32,110 +28,122 @@ main {
   margin: 0 auto;
   width: 80%;
 }
+
 .home {
-  position:relative; 
-  width:500px;
-  font-size:larger;
-  left:40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem; 
+    width: 100%; 
+    padding: 2rem;
+    box-sizing: border-box;
+    
+  }
+
+  .intro, .aboutMe, .skills, .experience, .education {
+    max-width: 800px; 
+    width: 100%; 
+    margin: 0 auto; 
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+  .intro {
+    margin-top: 6rem;
+    margin-left: 6rem;
+    white-space: initial;
+  }
   
-  }
-
   .aboutMe {
-    position: absolute;
-    top: 19vh;
-    padding: 5%;
-    width:700px;
+    margin-top: 3rem;
   }
-
+  
   .skills {
-    position: absolute;
-    padding: 5%;
-    top:55vh;
+    margin-top: 3rem;
   }
   
   .experience {
-    position: absolute;
-    padding: 5%;
-    top:102vh;
+    margin-top: 3rem;
   }
-
+  
   .education {
-      position: absolute;
-      top:120vh;
-      padding: 5%;
-
+    margin-top: 3rem;
   }
-
-    /* font-size: 36px;
-    line-height: 36px;
-    width: 80%;
-    top: 40px;
-    padding: 18px 20px 18px 20px; */
-
+    
+    h1 {
+      font-size: 2.5em; 
+    }
+    
+    h2 {
+      font-size: 2em; 
+    }
+    
+    p {
+      font-size: 1.25em; 
+    }
 
 .nav-link text-light {
   letter-spacing: px
 }
 
 .photo {
-  position: absolute;
-  left:900px;
-  height: 600px;
+  margin: 0 auto;
+  border-radius: 50%;
+  height: 400px; 
+   padding:4rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.technicalSkills, .projects {
+  margin-bottom: 3rem;
+}
+
+.technicalSkills h2, .projects h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.technicalSkills p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.project {
+  display: flex;
   align-items: center;
-  top:10px;
-   
+  margin-bottom: 2rem;
+}
+
+.project-text {
+  flex: 1;
+  margin-right: 1rem;
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.project p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.projectImage {
+  width: 600px; 
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
 
-
-.project1{
-  /* border:1px solid #000; */
-
-  padding:5% 5%;
-}
-
-.project2{
-  position: relative;
-  padding:5% 5%;
-  top: 15vh;
-  /* border:1px solid #000; */
-
-}
-
-.project3{
-  position: relative;
-  padding:5% 5%;
-  top: 40vh;
-  /* border:1px solid #000; */
-
-
-}
-.projectImage1 {
-  position: absolute;
-  top: 15%;
-  left: 50%;
-  height: 400px;
-  border:1px solid #000;
-  bottom: 100%;
-}
-
-.projectImage2 {
-  position: absolute;
-  top:60%;
-  left: 50%;
-  height: 400px;
-  border:1px solid #000;
-
-}
-
-.projectImage3 {
-  position: absolute;
-  top:105%;
-  left: 50%;
-  height: 400px;
-  border:1px solid #000;
-
-}
 
 /*justify-content, align-items, 
 align-self flex-direction, flex-wrap, flex-flow*/
