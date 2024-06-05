@@ -7,7 +7,7 @@ export default function Resume() {
           <h2>Technical Skills</h2>
           <p>
             Front End: HTML, CSS, JavaScript<br/>
-            Back End: JavaScript, Web API’s, Third Party API’s, Server Side API, Node, OOP, Express, SQL, ORM, MVC, Computer Science, NoSQL, PWA, React, MERN, State<br/>
+            Back End: JavaScript, Web API's, Third Party API's, Server Side API, Node, OOP, Express, SQL, ORM, MVC, Computer Science, NoSQL, PWA, React, MERN, State<br/>
             Applications: GitHub, Git Bash, Visual Studio Code, MySQL WorkBench, Insomnia
           </p>
         </div>
@@ -22,7 +22,7 @@ export default function Resume() {
             <p>
               Summary: App that provides current weather forecast for dog parks nearby.<br/>
               Role: Front end<br/>
-              Tools: HTML, CSS, JavaScript, API’s, and CSS Framework
+              Tools: HTML, CSS, JavaScript, API's, and CSS Framework
             </p>
           </div>
           <img className="projectImage" src="http://localhost:3000/src/assets/Screenshot (132).png" alt="Local Park Weather App" />

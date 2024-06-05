@@ -7,7 +7,7 @@ export default function Home() {
     <main className="home">
       <section id="home">
           <h1 className="intro">
-            {/* Hey there, my name is Riley */}
+            Hey there, my name is Riley
           </h1>
           <img className="photo" src="http://localhost:3000/src/assets/IMG_2897.png" alt="My high school senior picture" />
         </section>
@@ -36,7 +36,7 @@ export default function Home() {
             <section className="education-container">
             <div class="education">
                <h3>EDUCATION</h3>
-                  <p> Certificate, Full Stack Web Development – University of Minnesota, MN</p>
+                  <p> Certificate, Full Stack Web Development - University of Minnesota, MN</p>
             </div>
         </section>
       </main>
