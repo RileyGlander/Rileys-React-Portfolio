@@ -7,7 +7,7 @@ export default function Resume() {
           <h2>Technical Skills</h2>
           <p>
             Front End: HTML, CSS, JavaScript<br/>
-            Back End: JavaScript, Web API's, Third Party API's, Server Side API, Node, OOP, Express, SQL, ORM, MVC, Computer Science, NoSQL, PWA, React, MERN, State<br/>
+            Back End: JavaScript, Web APIs, Third Party APIs, Server Side API, Node, OOP, Express, SQL, ORM, MVC, Computer Science, NoSQL, PWA, React, MERN, State<br/>
             Applications: GitHub, Git Bash, Visual Studio Code, MySQL WorkBench, Insomnia
           </p>
         </div>

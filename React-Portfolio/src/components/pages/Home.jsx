@@ -23,14 +23,19 @@ export default function Home() {
         <section className="skills-container">
           <div class="skills">
             <h2> Skills</h2>
-            <p>Experienced web developer creating websites and software. Certified in Full Stack Web Development from the University of Minnesota Coding Boot Camp. </p>
-            <p>Skilled in developing server-side logic to ensure high performance and reliability. Known for hard working, collaboration, and consistency.</p>
+            <p>Entry level web developer creating websites and software. Certified in Full Stack Web Development from the University of Minnesota Coding Boot Camp. </p>
+            <p>Skilled in developing server-side logic to ensure high performance and reliability.</p>
         </div>
         </section>
         <section className="experience-container">
           <div class="experience">
             <h2>Experience</h2>
-               <p>Junior Web Developer 2023-Present</p>
+               <p>Freelance Web Developer 	2023-Present</p>
+                <un>
+                  <li> Worked with clients to make impactful websites </li>
+                <p><br></br>Handyman 			2021-Present</p>
+                  <li>Work with freelance clients in outside work, personal assisting and home maintenance</li>
+                </un>
           </div>
         </section>
             <section className="education-container">
