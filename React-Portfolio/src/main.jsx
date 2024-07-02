@@ -8,7 +8,6 @@ import './index.css'
 
 // import Contact from './components/pages/Contact';
 import Home from './components/pages/Home.jsx';
-import Resume from './components/pages/Resume';
 
 const router = createBrowserRouter([
   {
@@ -19,11 +18,7 @@ const router = createBrowserRouter([
         index: true,
         element: <Home />,
       },
-      {
-        path: '/resume',
-        element: <Resume />,
-      },
-      
+     
       
       
     ],

@@ -29,6 +29,12 @@ main {
   width: 80%;
 }
 
+#home {
+  border: 1px solid black;
+  width: 100%;
+  background-color: azure;
+}
+
 .home {
     display: flex;
     flex-direction: column;
@@ -39,7 +45,6 @@ main {
     width: 100%; 
     padding: 2rem;
     box-sizing: border-box;
-    
   }
 
   .intro, .aboutMe, .skills, .experience, .education {
@@ -52,9 +57,9 @@ main {
 
   .intro {
     margin-top: 6rem;
-    margin-left: 35rem;
+    margin-left: 20rem;
     white-space: initial;
-    max-width: 400px; /* Optional: Limit the width of the intro text */
+    max-width: 400px; 
 
   }
 
@@ -66,22 +71,47 @@ main {
     margin-left: 60vh; /* This will push the element to the rightmost side */
     margin-right: 0; /* This ensures there's no extra margin on the right */
   }
+  
+  .content {
+    border: 1px solid black;
+    width: 100%;
+    background-color: azure;
+  }
 
-  /* .aboutMe {
-    margin-top: 3rem;
-  } */
+  .container pt-4 {
+    border: 1px solid black;
+    width: 100%;
+    background-color: azure;
+  }
+
+  .projects {
+    border: 1px solid black;
+    width: 100%;
+    background-color: azure;
+  }
+   .aboutMe-container {
+    border: 1px solid black;
+    width: 100%;
+    background-color: azure;
+  } 
   
-  /* .skills {
-    margin-top: 3rem;
-  } */
+   .skills-container {
+    border: 1px solid black;
+    width: 100%;
+    background-color: azure;
+  } 
   
-  /* .experience {
-    margin-top: 3rem;
+.experience-container {
+  border: 1px solid black;
+    width: 100%;
+    background-color: azure;
   }
   
-  .education {
-    margin-top: 3rem;
-  } */
+  .education-container {
+    border: 1px solid black;
+    width: 100%;
+    background-color: azure;
+  } 
     
     h1 {
       font-size: 2.5em; 
