@@ -8,20 +8,20 @@ export const Navbar = () => {
 
   return (
     <nav>
-      <Link to="/" className="title">
+      <a href="/" className="title">
         Riley Glander
-      </Link>
+      </a>
       <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
       </div>
       <ul className={menuOpen ? "open" : ""}>
         <li>
-          <NavLink to="#portfolio">Portfolio</NavLink>
+          <a href="#projects">Portfolio</a>
         </li>
         <li>
-          <NavLink to="#about-me">About Me</NavLink>
+          <a href="#aboutMe">About Me</a>
         </li>
         <li>
-          <NavLink to="#contact">Contact</NavLink>
+          <a href="#footer">Contact</a>
         </li>
       </ul>
     </nav>

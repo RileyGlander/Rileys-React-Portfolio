@@ -2,6 +2,8 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+  background-color: rgba(4, 5, 7, 0.884);
+  color: #fff;
 }
 
 .app {
@@ -30,24 +32,96 @@ main {
 }
 
 #home {
-  border: 1px solid black;
   width: 100%;
-  background-color: azure;
-}
+  background-color: rgba(69, 69, 82, 0.363);
+  background-image: url("./src/assets/footer_lodyas.png");
+
+} 
 
 .home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 2rem; 
-    width: 100%; 
-    padding: 2rem;
-    box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
   }
 
-  .intro, .aboutMe, .skills, .experience, .education {
+   /* Styling for the intro section */
+.intro-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 3rem;
+  box-sizing: border-box;
+}
+
+/* Styling for the intro content container */
+.intro-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* Space between text and image */
+  max-width: 1200px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+/* Styling for the text content */
+.text-content {
+    max-width: 400px;
+    margin-right: 3rem;
+
+
+
+}
+
+/* Styling for the intro text */
+.intro {
+  margin-left: 10%;
+  padding-bottom: 0.5rem;
+  font-size: 3rem;
+  
+}
+
+.subintro {
+  margin-top: 20%;
+  font-size: 2rem;
+  margin-bottom:60px;
+  width: 400px;
+  max-width: autpo;
+}
+
+/* Styling for the photo */
+.photo {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .intro-content {
+    flex-direction: column;
+    align-items: center;
+        text-align: center;
+
+  }
+}
+/* Media queries for responsiveness */
+@media (min-width: 768px) {
+  .photo {
+    height: 300px;
+    width: 300px;
+  }
+
+  .text-content {
+    margin-right: 3rem;
+  }
+}
+
+  .aboutMe, .skills, .experience, .education {
     max-width: 800px; 
     width: 100%; 
     margin: 0 auto; 
@@ -55,63 +129,29 @@ main {
     box-sizing: border-box;
   }
 
-  .intro {
-    margin-top: 6rem;
-    margin-left: 20rem;
-    white-space: initial;
-    max-width: 400px; 
-
-  }
+  
+ 
 
   
-  .photo {
-    border-radius: 50%;
-    height: 400px;
-    padding: 3rem;
-    margin-left: 60vh; /* This will push the element to the rightmost side */
-    margin-right: 0; /* This ensures there's no extra margin on the right */
+
+  #projects {
+    background-color: rgba(69, 69, 82, 0.363);
+    width:100%;
+    padding:5%;
   }
+ 
   
-  .content {
-    border: 1px solid black;
-    width: 100%;
-    background-color: azure;
-  }
-
-  .container pt-4 {
-    border: 1px solid black;
-    width: 100%;
-    background-color: azure;
-  }
-
-  .projects {
-    border: 1px solid black;
-    width: 100%;
-    background-color: azure;
-  }
-   .aboutMe-container {
-    border: 1px solid black;
-    width: 100%;
-    background-color: azure;
+  .skills {
+    background-color: rgba(69, 69, 82, 0.363);
+    border: 1px solid black;  
+    
   } 
-  
-   .skills-container {
-    border: 1px solid black;
-    width: 100%;
-    background-color: azure;
-  } 
-  
-.experience-container {
-  border: 1px solid black;
-    width: 100%;
-    background-color: azure;
+  .aboutMe {
+    background-color: rgba(69, 69, 82, 0.363);
   }
   
-  .education-container {
-    border: 1px solid black;
-    width: 100%;
-    background-color: azure;
-  } 
+  
+  
     
     h1 {
       font-size: 2.5em; 
@@ -176,7 +216,7 @@ main {
 .projectImage {
   width: 600px; 
   height: auto;
-  border: 1px solid #ddd;
+  border: 1px solid #000000;
   border-radius: 5px;
 }
 

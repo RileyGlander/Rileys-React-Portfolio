@@ -1,15 +1,17 @@
-import React from "react"
-// import IMG from '../assets/';
-
+import React from 'react';
+import IMG from '../../assets/IMG_2897.png'; 
 
 export default function Home() {
   return (
     <main className="home">
-      <section id="home">
-          <h1 className="intro">
-            Hey there, my name is Riley
-          </h1>
-        <img className="photo" src="http://localhost:3000/src/assets/IMG_2897.png" alt="My high school senior picture" />
+      <section id="home" className="intro-section">
+        <div className="intro-content">
+          <div className="text-content">
+            <h1 className="intro">Hey there, my name is Riley</h1>
+            <p className="subintro">Full Stack Web Developer and Designer</p>
+          </div>
+          <img className="photo" src={IMG} alt="My high school senior picture" />
+        </div>
       </section>
         
     <div className="container pt-4">
@@ -24,8 +26,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="projects">
-        <h2>Projects</h2>
+      <section className="projects" id="projects">
+        <h2>Portfolio</h2>
         
         <div className="project">
           <div className="project-text">
@@ -64,24 +66,8 @@ export default function Home() {
         </div>
       </section>
     </div>
-      <section className="aboutMe-container">
-         <div className="aboutMe">
-         <h2> About Me</h2>
-          <p>I'm a Full Stack Flex Developer who graduated the University of Minnesota's online bootcamp.</p>
-          <p>You can usually find me on my computer learning more about the languages and skills needed to be a full stack flex web developer.</p>
-          <p>Outside of programming, I enjoy activities such as gaming, which has allowed me to develop skills such as strategic thinking, problem solving and teamwork.</p>
-          </div>
-        </section>
-        
-        
-      <section className="skills-container">
-        <div className="skills">
-          <h2> Skills</h2>
-          <p>Entry level web developer creating websites and software. Certified in Full Stack Web Development from the University of Minnesota Coding Boot Camp. </p>
-          <p>Skilled in developing server-side logic to ensure high performance and reliability.</p>
-        </div>
-      </section>
-        <section className="experience-container">
+
+    <section className="experience-container">
           <div className="experience">
             <h2>Experience</h2>
                <p>Freelance Web Developer 	2023-Present</p>
@@ -92,6 +78,15 @@ export default function Home() {
                 </ul>
           </div>
         </section>
+      <section className="aboutMe-container">
+         <div className="aboutMe" id="aboutMe">
+         <h2> About Me</h2>
+          <p>I'm a Full Stack Flex Developer who graduated the University of Minnesota's online bootcamp.</p>
+          <p>You can usually find me on my computer learning more about the languages and skills needed to be a full stack flex web developer.</p>
+          <p>Outside of programming, I enjoy activities such as gaming, which has allowed me to develop skills such as strategic thinking, problem solving and teamwork.</p>
+          </div>
+        </section>
+        
             <section className="education-container">
             <div className="education">
                <h3>EDUCATION</h3>
