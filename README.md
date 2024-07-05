@@ -1,9 +1,5 @@
 # Rileys-React-Portfolio
 
-![Screenshot (51)](https://github.com/RileyGlander/Rileys-React-Portfolio/assets/142702948/3bd99d6a-02dc-412c-b8ec-c15254c960dc)
-![Screenshot (42)](https://github.com/RileyGlander/Rileys-React-Portfolio/assets/142702948/d997fcfd-5504-49b3-8bb1-214977cfb055)
-![Screenshot (43)](https://github.com/RileyGlander/Rileys-React-Portfolio/assets/142702948/1cb8d847-dd7c-4ebf-b8c5-092f0c5243ca)
-![Screenshot (49)](https://github.com/RileyGlander/Rileys-React-Portfolio/assets/142702948/bd1a0517-e32f-49af-b6a5-556a0f5a7c0a)
 
 
 ## Deployed Link
