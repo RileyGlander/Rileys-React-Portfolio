@@ -1,5 +1,10 @@
 import React from 'react';
-import IMG from '../../assets/IMG_2897.png'; 
+import IMG from '../../assets/IMG_2897.png' 
+import IMG1 from '../../assets/pexels-pixabay-209831.jpg' 
+import IMG2 from '../../assets/pexels-fauxels-3184360.jpg' 
+import IMG3 from '../../assets/pexels-nitin-arya-386173-1029141.jpg' 
+import Form from './Contact';
+
 
 export default function Home() {
   return (
@@ -38,7 +43,7 @@ export default function Home() {
               Tools: HTML, CSS, JavaScript, API's, and CSS Framework
             </p>
           </div>
-          <img className="projectImage" src="http://localhost:3000/src/assets/Screenshot (132).png" alt="Local Park Weather App" />
+          <img className="projectImage" src={IMG1} alt="Local Park Weather App" />
         </div>
 
         <div className="project">
@@ -50,7 +55,7 @@ export default function Home() {
               Tools: HTML, CSS, JavaScript, MySQL, Node, Insomnia
             </p>
           </div>
-          <img className="projectImage" src="http://localhost:3000/src/assets/Screenshot (19).png" alt="Employee Tracker" />
+          <img className="projectImage" src={IMG2} alt="Employee Tracker" />
         </div>
 
         <div className="project">
@@ -62,7 +67,7 @@ export default function Home() {
               Tools: HTML, CSS, JavaScript, React, GraphQL, Apollo Client/Server
             </p>
           </div>
-          <img className="projectImage" src="http://localhost:3000/src/assets/Screenshot (131).png" alt="BookDoor App" />
+          <img className="projectImage" src={IMG3} alt="BookDoor App" />
         </div>
       </section>
     </div>
@@ -93,6 +98,7 @@ export default function Home() {
                   <p> Certificate, Full Stack Web Development - University of Minnesota, MN</p>
             </div>
         </section>
+        
       </main>
                       
     
