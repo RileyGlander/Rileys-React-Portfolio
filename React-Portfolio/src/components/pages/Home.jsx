@@ -3,12 +3,12 @@ import IMG from '../../assets/IMG_2897.png'
 import IMG1 from '../../assets/pexels-pixabay-209831.jpg' 
 import IMG2 from '../../assets/pexels-fauxels-3184360.jpg' 
 import IMG3 from '../../assets/pexels-nitin-arya-386173-1029141.jpg' 
-import Form from './Contact';
 
 
 export default function Home() {
   return (
-    <main className="home">
+    
+    <div className="home">
       <section id="home" className="intro-section">
         <div className="intro-content">
           <div className="text-content">
@@ -18,7 +18,8 @@ export default function Home() {
           <img className="photo" src={IMG} alt="My high school senior picture" />
         </div>
       </section>
-        
+    
+    <main className="page-wrapper">  
     <div className="container pt-4">
       <section className="technicalSkills">
         <div className="content">
@@ -100,7 +101,7 @@ export default function Home() {
         </section>
         
       </main>
-                      
+      </div>              
     
 
   );

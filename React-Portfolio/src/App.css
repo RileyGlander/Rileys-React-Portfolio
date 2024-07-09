@@ -28,6 +28,12 @@ main {
    font-size: large;
 }
 
+.page-wrapper {
+  background-color: rgba(69, 69, 82, 0.363);
+  border-radius:10px;
+  margin-top:10rem;
+  margin-bottom:10rem;
+}
 .footer {
   background: #333;
   color: #fff;
@@ -111,6 +117,7 @@ main {
   max-width: auto;
 }
 
+
 /* Styling for the photo */
 .photo {
   border-radius: 50%;
@@ -157,23 +164,9 @@ main {
   
 
   #projects {
-    background-color: rgba(69, 69, 82, 0.363);
     width:100%;
     padding:5%;
-  }
- 
-  
-  .skills {
-    background-color: rgba(69, 69, 82, 0.363);
-    border: 1px solid black;  
-    
   } 
-  .aboutMe {
-    background-color: rgba(69, 69, 82, 0.363);
-  }
-  
-  
-  
     
     h1 {
       font-size: 2.5em; 
@@ -305,7 +298,9 @@ body {
 }
 
 .form input[name="message"] {
-  padding: 1rem; /* Adjust the padding for the message input */
+  padding-right: 5rem; /* Adjust the padding for the message input */
+  padding-bottom:7rem; /* Adjust the padding for the message input */
+
 }
 
 .form button {

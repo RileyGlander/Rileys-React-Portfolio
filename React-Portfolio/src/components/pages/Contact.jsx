@@ -36,6 +36,8 @@ function Form() {
     <div className="form-section">
       <div className="form">
         <h3>Want to get in contact?</h3>
+        <p>Feel free to contact me. You can get ahold of me at my email <u>rileyglander@gmail.com</u></p>
+
         <form onSubmit={handleFormSubmit}>
           {["first Name", "last Name", "email", "subject", "message"].map((field) => (
             <div className="form-group" key={field}>
