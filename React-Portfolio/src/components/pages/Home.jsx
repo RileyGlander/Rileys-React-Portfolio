@@ -21,16 +21,32 @@ export default function Home() {
     
     <main className="page-wrapper">  
     <div className="container pt-4">
-      <section className="technicalSkills">
-        <div className="content">
-          <h2>Technical Skills</h2>
-          <p>
-            Front End: HTML, CSS, JavaScript<br/>
-            Back End: JavaScript, Web APIs, Third Party APIs, Server Side API, Node, OOP, Express, SQL, ORM, MVC, Computer Science, NoSQL, PWA, React, MERN, State<br/>
-            Applications: GitHub, Git Bash, Visual Studio Code, MySQL WorkBench, Insomnia
-          </p>
-        </div>
-      </section>
+  <section className="technicalSkills" id="projects">
+    <div className="content">
+      <h2>Technical Skills</h2>
+      <div className="skillsGrid">
+        <p>
+          Front End: 
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt="HTML5" title="HTML5"/>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="CSS3" title="CSS3"/><br/>
+          Back End: 
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express" title="Express" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="React" title="React"/> 
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" alt="NodeJS" title="NodeJS"/>
+          Web APIs, Third Party APIs, Server Side API, OOP, ORM, MVC, Computer Science, NoSQL, PWA, MERN, State<br/>
+          Applications: 
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" alt="GitHub" title="GitHub"/>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" alt="NPM" title="NPM"/>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" title="Git"/>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VSCode" title="VSCode"/>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" title="MySQL"/>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/insomnia/insomnia-original.svg" alt="Insomnia" title="Insomnia"/> 
+        </p>
+      </div>  
+    </div>
+  </section>
+
 
       <section className="projects" id="projects">
         <h2>Portfolio</h2>
@@ -74,19 +90,27 @@ export default function Home() {
     </div>
 
     <section className="experience-container">
-          <div className="experience">
-            <h2>Experience</h2>
-               <p>Freelance Web Developer 	2023-Present</p>
-                <ul>
-                  <li> Worked with clients to make impactful websites </li>
-                <p><br></br>Handyman 			2021-Present</p>
-                  <li>Work with freelance clients in outside work, personal assisting and home maintenance</li>
-                </ul>
-          </div>
-        </section>
+  <div className="experience">
+    <h2 class="section-title">Experience</h2>
+    <div className="experience-content">
+      <div className="experience-item">
+        <p>Freelance Web Developer 2023-Present</p>
+        <ul>
+          <li>Worked with clients to make impactful websites</li>
+        </ul>
+      </div>
+      <div className="experience-item">
+        <p>Handyman 2021-Present</p>
+        <ul>
+          <li>Work with freelance clients in outside work, personal assisting and home maintenance</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
       <section className="aboutMe-container">
-         <div className="aboutMe" id="aboutMe">
-         <h2> About Me</h2>
+         <div className="aboutMe">
+         <h2 class="section-title"> About Me</h2>
           <p>I'm a Full Stack Flex Developer who graduated the University of Minnesota's online bootcamp.</p>
           <p>You can usually find me on my computer learning more about the languages and skills needed to be a full stack flex web developer.</p>
           <p>Outside of programming, I enjoy activities such as gaming, which has allowed me to develop skills such as strategic thinking, problem solving and teamwork.</p>
@@ -95,7 +119,7 @@ export default function Home() {
         
             <section className="education-container">
             <div className="education">
-               <h3>EDUCATION</h3>
+               <h2>EDUCATION</h2>
                   <p> Certificate, Full Stack Web Development - University of Minnesota, MN</p>
             </div>
         </section>

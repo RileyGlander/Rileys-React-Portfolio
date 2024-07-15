@@ -90,13 +90,15 @@ main {
   max-width: 1200px;
   width: 100%;
   flex-wrap: wrap;
+  text-align: center; /* Center text content */
+
 }
 
 /* Styling for the text content */
 .text-content {
     max-width: 400px;
     margin-right: 3rem;
-
+    flex: 1 1 50%
 
 
 }
@@ -125,30 +127,13 @@ main {
   width: 300px;
   max-width: 100%;
   flex-shrink: 0;
+  
 }
 
 .content-container {
   border: 1px solid black
 }
-@media (max-width: 768px) {
-  .intro-content {
-    flex-direction: column;
-    align-items: center;
-        text-align: center;
 
-  }
-}
-/* Media queries for responsiveness */
-@media (min-width: 768px) {
-  .photo {
-    height: 300px;
-    width: 300px;
-  }
-
-  .text-content {
-    margin-right: 3rem;
-  }
-}
 
   .aboutMe, .skills, .experience, .education {
     max-width: 800px; 
@@ -158,10 +143,76 @@ main {
     box-sizing: border-box;
   }
 
-  
- 
+  .experience-container,
+.aboutMe-container {
+  width: 80%;
+  margin: 0 auto;
+}
 
+
+/* Experience section styling */
+.experience {
+  margin-bottom: 50px;
+}
+
+.experience-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.experience-item {
+  width: 48%;
+  margin-bottom: 20px;
+}
+
+.experience-item p {
+  margin-bottom: 10px;
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+/* About section styling */
+.aboutMe {
+  margin-bottom: 50px;
+}
+
+.aboutMe p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #fff;
+}
+
+ 
+  .technicalSkills{
+    display: flex;
+    align-items: center;
+  }
+  .container {
+    padding-top: 4rem; /* Adjust top padding for spacing */
+    text-align: center; /* Center align content */
+  }
   
+  .content {
+    margin-bottom: 2rem; /* Add margin at the bottom of content */
+  }
+  
+  .skillsGrid {
+    margin-top: 1rem; /* Add space above the skills grid */
+  }
+  
+  .skillsGrid p {
+    margin-bottom: 1rem; /* Add space below each paragraph */
+    line-height: 1.6; /* Increase line height for readability */
+  }
+  .skillsGrid img {
+    height: 50px;
+    margin-right: 10px; /* Adjust spacing between images */
+
+  }
+
+  .skillsGrid p {
+  }
 
   #projects {
     width:100%;
@@ -202,10 +253,108 @@ main {
   margin-bottom: 1rem;
 }
 
+.technicalSkills h2,  .projects h2{
+  display: inline-block;
+  position: relative;
+  color: #fff; /* Adjust color as needed */
+  font-size: 2rem; /* Adjust font size as needed */
+  padding-bottom: 5px; /* Add some padding to space out the underline */
+}
+
+.technicalSkills h2::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 4px;
+  background: linear-gradient(to right, #689fe7, #133c99); /* Adjust gradient colors as needed */
+}
+
+
+
 .technicalSkills p {
   font-size: 1.2rem;
   line-height: 1.5;
 }
+
+
+.projects h2 {
+    display: inline-block;
+    position: relative;
+    color: #fff; /* Adjust color as needed */
+    font-size: 2rem; /* Adjust font size as needed */
+    padding-bottom: 5px; /* Add some padding to space out the underline */
+  }
+  
+  .projects h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 4px;
+    background: linear-gradient(to right, #689fe7, #133c99); /* Adjust gradient colors as needed */
+  }
+
+  .experience h2 {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 2rem;
+
+    color: #fff; /* Adjust color as needed */
+    font-size: 2rem; /* Adjust font size as needed */
+    padding-bottom: 5px; /* Add some padding to space out the underline */
+  }
+  
+  .experience h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 4px;
+    background: linear-gradient(to right, #689fe7, #133c99); /* Adjust gradient colors as needed */
+  }
+  .aboutMe h2 {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 2rem;
+
+    color: #fff; /* Adjust color as needed */
+    font-size: 2rem; /* Adjust font size as needed */
+    padding-bottom: 5px; /* Add some padding to space out the underline */
+  }
+  
+  .aboutMe h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 4px;
+    background: linear-gradient(to right, #689fe7, #133c99); /* Adjust gradient colors as needed */
+  }
+
+  .education h2 {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 2rem;
+
+    color: #fff; /* Adjust color as needed */
+    font-size: 2rem; /* Adjust font size as needed */
+    padding-bottom: 5px; /* Add some padding to space out the underline */
+  }
+  
+  .education h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 4px;
+    background: linear-gradient(to right, #689fe7, #133c99); /* Adjust gradient colors as needed */
+  }
 
 .project {
   display: flex;
@@ -235,99 +384,59 @@ main {
   border-radius: 5px;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #282c34;
-  color: #fff;
-  margin: 0;
-}
 
-.form-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem;
-  background-color: rgba(4, 5, 7, 0.884);
-  flex: 1;  /* Allows form section to grow and fill available space */
-}
 
-.form {
+.form-container {
   max-width: 600px;
-  width: 100%;
-  padding: 2rem;
-  background-color: #333;
+  margin: 50px auto; /* Adjust margin to center the form vertically and horizontally */
+  padding: 30px;
+  background-color: #050505;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.form h3 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+.form-container form {
+  display: flex;
+  flex-direction: column;
 }
 
-.form-group {
-  text-align: left;
-  margin-bottom: 1.5rem;
+.form-container input,
+.form-container textarea {
+  margin-bottom: 20px;
+  padding: 15px; /* Increase padding for larger input elements */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 18px; /* Increase font size for better readability */
 }
 
-.form-group label {
-  display: block;
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
-  color: #ccc;
+.form-container textarea {
+  resize: vertical;
+  min-height: 200px; /* Increase minimum height of the textarea */
 }
 
-.form-group input {
-  width: 100%;
-  padding: 0.75rem;
-  font-size: 1rem;
-  border: 1px solid #555;
-  border-radius: 4px;
-  background-color: #444;
-  color: #fff;
-}
-
-.form-group input::placeholder {
-  color: #bbb;
-}
-
-.form-group input:focus {
-  border-color: #888;
-  outline: none;
-}
-
-.form input[name="message"] {
-  padding-right: 5rem; /* Adjust the padding for the message input */
-  padding-bottom:7rem; /* Adjust the padding for the message input */
-
-}
-
-.form button {
-  padding: 0.75rem 1.5rem;
-  font-size: 1rem;
-  cursor: pointer;
-  background-color: #555;
-  color: #fff;
+.form-container button {
+  padding: 15px 30px;
+  background-color: #007bff;
+  color: white;
   border: none;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px; /* Increase font size for the button text */
 }
 
-.form button:hover {
-  background-color: #777;
+.form-container button:hover {
+  background-color: #0056b3;
 }
 
-.error-message {
-  color: red;
-  margin-top: 1rem;
+.form-container p {
+  margin-top: 15px;
+  font-size: 18px; /* Increase font size of the result message */
+  color: #555;
 }
 
-@media (max-width: 768px) {
-  .form {
-    padding: 1rem;
-  }
-}
+
+
+
 
 
 
@@ -360,6 +469,45 @@ align-self flex-direction, flex-wrap, flex-flow*/
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
+}
+/* Mobile Version */
+/* Media queries for responsiveness */
+@media only screen and (max-width: 600px) {
+  .intro-content {
+    flex-direction: column;
+    align-items: center;
+        text-align: center;
+  }
+  .subintro {
+    padding-top:40px
+  }
+.page-wrapper{
+  width:100%;
+}
+  .form {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .project {
+    flex-direction: column; /* Stack text and image vertically */
+    align-items: center; /* Center the items */
+  }
+    .experience-content {
+      flex-direction: column;
+    }
+  
+    .experience-left, .experience-right {
+      margin-bottom: 1rem;
+  }
+    
+  
+  .projectImage {
+    width: 90%; /* Ensures the image fits within the container with some padding */
+    margin-bottom: 1rem; /* Adds space below the image */
+  }
+  
 }
 
 .card {
