@@ -3,7 +3,7 @@ import IMG from '../../assets/IMG_2897.png'
 import IMG1 from '../../assets/pexels-pixabay-209831.jpg' 
 import IMG2 from '../../assets/pexels-fauxels-3184360.jpg' 
 import IMG3 from '../../assets/pexels-nitin-arya-386173-1029141.jpg' 
-
+import IMG4 from '../../assets/pexels-pixabay-531844.jpg'
 
 export default function Home() {
   return (
@@ -53,7 +53,7 @@ export default function Home() {
         
         <div className="project">
           <div className="project-text">
-            <h3>Local Park Weather App |<a href="https://github.com/RileyGlander/local-park-weather-app"> LP Weather GitHub </a>|</h3>
+            <h3>Local Park Weather App |<a href="https://github.com/RileyGlander/local-park-weather-app"> LP Weather GitHub </a>| <a href="https://local-park-weather-app.netlify.app/">LP Weather Deployed</a></h3>
             <p>
               Summary: App that provides current weather forecast for dog parks nearby.<br/>
               Role: Front end<br/>
@@ -77,7 +77,7 @@ export default function Home() {
 
         <div className="project">
           <div className="project-text">
-            <h3>BookDoor | <a href="https://github.com/RileyGlander/BookDoor">BD GitHub </a>| <a href="https://bookdoor.onrender.com/">BD Deployed</a></h3>
+            <h3>BookDoor | <a href="https://github.com/RileyGlander/BookDoor">BD GitHub </a>| <a href="https://bookdoor-g56t.onrender.com/">BD Deployed</a></h3>
             <p>
               Summary: App that allows users to trade books with other book lovers.<br/>
               Role: Back end<br/>
@@ -86,8 +86,22 @@ export default function Home() {
           </div>
           <img className="projectImage" src={IMG3} alt="BookDoor App" />
         </div>
+
+        <div className="project">
+          <div className="project-text">
+            <h3>Express Note Taker |<a href="https://github.com/RileyGlander/Rileys-Express-Note-Taker"> ENT GitHub </a>| <a href="https://rileys-express-note-taker.onrender.com">ENT Deployed</a> </h3>
+            <p>
+                Summary: App that allows users to create, edit and delete notes.<br/>
+                Role: Back end<br/>
+                Tools: HTML, CSS, JavaScript, Express
+            </p>
+          </div>
+          <img className="projectImage" src={IMG4} alt="" />
+        </div>
       </section>
     </div>
+
+
 
     <section className="experience-container">
   <div className="experience">
